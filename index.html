@@ -181,7 +181,7 @@
 <section class="container">
     <h2>Vídeo Institucional</h2>
     <div class="embed-responsive embed-responsive-16by9">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/hCMN40mVzF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe>
             </div>
 </section>
 
@@ -192,12 +192,11 @@
 <section>
 	<h2>Contatos</h2>
 	<p>Entre em contato conosco</p>
+
 		<form>
 			<div class="form-group">
 				<label for="contato-name">Nome:</label>
-
-					<input class="form-control" id="contato-name" type="text" placeholder="Seu Nome">
-			  
+					<input class="form-control" id="contato-name" type="text" placeholder="Seu Nome">			  
 			</div>
 		</form>
 
@@ -214,36 +213,37 @@
 			</div>
 		</form>
 
+
 		<form>
-			<div class="radio">
-				<label>
-						<input type="radio" name="tipos-pessoas"  checked>
-				Pessoa Fisica
+			<div class="grupo-radio">
+    <div class="radio">
+        <label>
+            <input type="radio" name="tipo-pessoa" checked> 
+            Pessoa Física
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="tipo-pessoa" checked> 
+            Pessoa Jurídica
+        </label>
+    </div>
+</div><!--  
 
-				</label>
-			</div>
+			--><select class=" contato-select form-control">
 
-			<div class="radio">
-				<label>
-						<input type="radio"  type="radio" name="tipos-pessoas" >
-			Pessoa Juridica
-				</label>
-			</div>
+					<option disabled selected >Tipo de Situação</option>
+		    		<option>Casa</option>
+		    		<option>Apartamento</option>
+		    		<option>Mansão</option>
 
-		</form>
+			</select>
 
+			<button type="submit" class="btn btn-primary ">Enviar</button>
+			
 
-		<select class="form-control">
+	</form>
 
-			<option disabled selected >Tipo de Situação</option>
-    		<option>Casa</option>
-    		<option>Apartamento</option>
-    		<option>Mansão</option>
-
-		</select>
-
-
-</section>
 
 <!-- import JavaScript -->
 		<script src= "jquery.js"></script>
