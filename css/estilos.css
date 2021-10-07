@@ -1,0 +1,25 @@
+#painel-sobre{
+
+	margin-top:20px; 
+}
+.depoimentos-cliente{
+
+	background-color: #0275D8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #FFF;
+	margin-bottom: 0;
+	font-size: 24px;
+
+}
+.cadastro-pessoa{
+
+	display: inline;
+}
+
+.radio-botton{
+
+	width: 50%;
+	display: inline;
+
+}
